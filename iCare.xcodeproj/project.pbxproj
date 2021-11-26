@@ -11,6 +11,8 @@
 		8EB34B2A2751622E0075EC92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB34B292751622E0075EC92 /* ContentView.swift */; };
 		8EB34B2C275162300075EC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB34B2B275162300075EC92 /* Assets.xcassets */; };
 		8EB34B2F275162300075EC92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB34B2E275162300075EC92 /* Preview Assets.xcassets */; };
+		8EB34B38275162690075EC92 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB34B37275162690075EC92 /* HomeView.swift */; };
+		8EB34B3A275162860075EC92 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB34B39275162860075EC92 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8EB34B292751622E0075EC92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EB34B2B275162300075EC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EB34B2E275162300075EC92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EB34B37275162690075EC92 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8EB34B39275162860075EC92 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,8 @@
 		8EB34B262751622E0075EC92 /* iCare */ = {
 			isa = PBXGroup;
 			children = (
+				8EB34B35275162400075EC92 /* Views */,
 				8EB34B272751622E0075EC92 /* iCareApp.swift */,
-				8EB34B292751622E0075EC92 /* ContentView.swift */,
 				8EB34B2B275162300075EC92 /* Assets.xcassets */,
 				8EB34B2D275162300075EC92 /* Preview Content */,
 			);
@@ -65,6 +69,24 @@
 				8EB34B2E275162300075EC92 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EB34B35275162400075EC92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8EB34B37275162690075EC92 /* HomeView.swift */,
+				8EB34B36275162490075EC92 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8EB34B36275162490075EC92 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8EB34B292751622E0075EC92 /* ContentView.swift */,
+				8EB34B39275162860075EC92 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB34B38275162690075EC92 /* HomeView.swift in Sources */,
+				8EB34B3A275162860075EC92 /* OnboardingView.swift in Sources */,
 				8EB34B2A2751622E0075EC92 /* ContentView.swift in Sources */,
 				8EB34B282751622E0075EC92 /* iCareApp.swift in Sources */,
 			);
