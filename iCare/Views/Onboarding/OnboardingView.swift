@@ -47,7 +47,27 @@ struct OnboardingView: View {
                     
                 }
                 
-                //MARK: -Header
+                //MARK: -Center
+                
+                ZStack {
+                    ZStack {
+                        Circle()
+                            .stroke(.white.opacity(0.2), lineWidth: 40)
+                            .frame(width: 260, height: 260, alignment: .center)
+                        Circle()
+                            .stroke(.white.opacity(0.2), lineWidth: 80)
+                            .frame(width: 260, height: 260, alignment: .center)
+                    }  //:ZStack
+                    
+                    Image("mom2")
+                        .resizable()
+                        .scaledToFit()
+                    
+                }//:Center
+                
+                Spacer()
+                
+                
                 
                 //MARK: -Footer
             }
